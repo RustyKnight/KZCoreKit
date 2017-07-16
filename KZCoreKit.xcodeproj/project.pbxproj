@@ -10,20 +10,6 @@
 		702734DD1F1B27FC006E9C94 /* KZCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 702734D31F1B27FC006E9C94 /* KZCoreKit.framework */; };
 		702734E21F1B27FC006E9C94 /* KZCoreKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702734E11F1B27FC006E9C94 /* KZCoreKitTests.swift */; };
 		702734E41F1B27FC006E9C94 /* KZCoreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 702734D61F1B27FC006E9C94 /* KZCoreKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		702734FB1F1B2816006E9C94 /* UIViewController+FirstResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702734ED1F1B2816006E9C94 /* UIViewController+FirstResponder.swift */; };
-		702734FC1F1B2816006E9C94 /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702734EE1F1B2816006E9C94 /* UIViewController+Alert.swift */; };
-		702734FD1F1B2816006E9C94 /* String+Trim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702734EF1F1B2816006E9C94 /* String+Trim.swift */; };
-		702734FE1F1B2816006E9C94 /* UIView+TransitionHidden.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702734F01F1B2816006E9C94 /* UIView+TransitionHidden.swift */; };
-		702734FF1F1B2816006E9C94 /* NumberExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702734F11F1B2816006E9C94 /* NumberExtensions.swift */; };
-		702735001F1B2816006E9C94 /* UIView+FirstResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702734F21F1B2816006E9C94 /* UIView+FirstResponder.swift */; };
-		702735011F1B2816006E9C94 /* UIViewController+RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702734F31F1B2816006E9C94 /* UIViewController+RootViewController.swift */; };
-		702735021F1B2816006E9C94 /* String+i8n.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702734F41F1B2816006E9C94 /* String+i8n.swift */; };
-		702735031F1B2816006E9C94 /* String+Bool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702734F51F1B2816006E9C94 /* String+Bool.swift */; };
-		702735041F1B2816006E9C94 /* UIColor+RGB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702734F61F1B2816006E9C94 /* UIColor+RGB.swift */; };
-		702735051F1B2816006E9C94 /* String+Drop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702734F71F1B2816006E9C94 /* String+Drop.swift */; };
-		702735061F1B2816006E9C94 /* String+Replace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702734F81F1B2816006E9C94 /* String+Replace.swift */; };
-		702735071F1B2816006E9C94 /* UIViewController+Pop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702734F91F1B2816006E9C94 /* UIViewController+Pop.swift */; };
-		702735081F1B2816006E9C94 /* UIColor+Blend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702734FA1F1B2816006E9C94 /* UIColor+Blend.swift */; };
 		7027350C1F1B2848006E9C94 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7027350B1F1B2847006E9C94 /* Utilities.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,26 +24,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		70257C911F1B347D00383685 /* UIViewController+FirstResponder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+FirstResponder.swift"; sourceTree = "<group>"; };
+		70257C921F1B347D00383685 /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
+		70257C931F1B347D00383685 /* String+Trim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Trim.swift"; sourceTree = "<group>"; };
+		70257C941F1B347D00383685 /* UIColor+RGB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+RGB.swift"; sourceTree = "<group>"; };
+		70257C951F1B347D00383685 /* NumberExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberExtensions.swift; sourceTree = "<group>"; };
+		70257C961F1B347D00383685 /* String+Drop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Drop.swift"; sourceTree = "<group>"; };
+		70257C971F1B347D00383685 /* String+Replace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Replace.swift"; sourceTree = "<group>"; };
+		70257C981F1B347D00383685 /* String+i8n.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+i8n.swift"; sourceTree = "<group>"; };
+		70257C991F1B347D00383685 /* UIViewController+RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+RootViewController.swift"; sourceTree = "<group>"; };
+		70257C9A1F1B347D00383685 /* UIColor+Blend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Blend.swift"; sourceTree = "<group>"; };
+		70257C9B1F1B347D00383685 /* String+Bool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Bool.swift"; sourceTree = "<group>"; };
+		70257C9C1F1B347D00383685 /* UIView+TransitionHidden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+TransitionHidden.swift"; sourceTree = "<group>"; };
+		70257C9D1F1B347D00383685 /* UIView+FirstResponder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+FirstResponder.swift"; sourceTree = "<group>"; };
+		70257C9E1F1B347D00383685 /* UIViewController+Pop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Pop.swift"; sourceTree = "<group>"; };
 		702734D31F1B27FC006E9C94 /* KZCoreKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KZCoreKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		702734D61F1B27FC006E9C94 /* KZCoreKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KZCoreKit.h; sourceTree = "<group>"; };
 		702734D71F1B27FC006E9C94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		702734DC1F1B27FC006E9C94 /* KZCoreKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KZCoreKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		702734E11F1B27FC006E9C94 /* KZCoreKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KZCoreKitTests.swift; sourceTree = "<group>"; };
 		702734E31F1B27FC006E9C94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		702734ED1F1B2816006E9C94 /* UIViewController+FirstResponder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIViewController+FirstResponder.swift"; path = "../../KZiOSCoreKit/KZiOSCoreKit/UIViewController+FirstResponder.swift"; sourceTree = "<group>"; };
-		702734EE1F1B2816006E9C94 /* UIViewController+Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIViewController+Alert.swift"; path = "../../KZiOSCoreKit/KZiOSCoreKit/UIViewController+Alert.swift"; sourceTree = "<group>"; };
-		702734EF1F1B2816006E9C94 /* String+Trim.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+Trim.swift"; path = "../../KZiOSCoreKit/KZiOSCoreKit/String+Trim.swift"; sourceTree = "<group>"; };
-		702734F01F1B2816006E9C94 /* UIView+TransitionHidden.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+TransitionHidden.swift"; path = "../../KZiOSCoreKit/KZiOSCoreKit/UIView+TransitionHidden.swift"; sourceTree = "<group>"; };
-		702734F11F1B2816006E9C94 /* NumberExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NumberExtensions.swift; path = ../../KZiOSCoreKit/KZiOSCoreKit/NumberExtensions.swift; sourceTree = "<group>"; };
-		702734F21F1B2816006E9C94 /* UIView+FirstResponder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+FirstResponder.swift"; path = "../../KZiOSCoreKit/KZiOSCoreKit/UIView+FirstResponder.swift"; sourceTree = "<group>"; };
-		702734F31F1B2816006E9C94 /* UIViewController+RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIViewController+RootViewController.swift"; path = "../../KZiOSCoreKit/KZiOSCoreKit/UIViewController+RootViewController.swift"; sourceTree = "<group>"; };
-		702734F41F1B2816006E9C94 /* String+i8n.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+i8n.swift"; path = "../../KZiOSCoreKit/KZiOSCoreKit/String+i8n.swift"; sourceTree = "<group>"; };
-		702734F51F1B2816006E9C94 /* String+Bool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+Bool.swift"; path = "../../KZiOSCoreKit/KZiOSCoreKit/String+Bool.swift"; sourceTree = "<group>"; };
-		702734F61F1B2816006E9C94 /* UIColor+RGB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor+RGB.swift"; path = "../../KZiOSCoreKit/KZiOSCoreKit/UIColor+RGB.swift"; sourceTree = "<group>"; };
-		702734F71F1B2816006E9C94 /* String+Drop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+Drop.swift"; path = "../../KZiOSCoreKit/KZiOSCoreKit/String+Drop.swift"; sourceTree = "<group>"; };
-		702734F81F1B2816006E9C94 /* String+Replace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+Replace.swift"; path = "../../KZiOSCoreKit/KZiOSCoreKit/String+Replace.swift"; sourceTree = "<group>"; };
-		702734F91F1B2816006E9C94 /* UIViewController+Pop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIViewController+Pop.swift"; path = "../../KZiOSCoreKit/KZiOSCoreKit/UIViewController+Pop.swift"; sourceTree = "<group>"; };
-		702734FA1F1B2816006E9C94 /* UIColor+Blend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor+Blend.swift"; path = "../../KZiOSCoreKit/KZiOSCoreKit/UIColor+Blend.swift"; sourceTree = "<group>"; };
 		7027350B1F1B2847006E9C94 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,23 +87,23 @@
 		702734D51F1B27FC006E9C94 /* KZCoreKit */ = {
 			isa = PBXGroup;
 			children = (
-				7027350B1F1B2847006E9C94 /* Utilities.swift */,
 				702734D71F1B27FC006E9C94 /* Info.plist */,
 				702734D61F1B27FC006E9C94 /* KZCoreKit.h */,
-				702734F11F1B2816006E9C94 /* NumberExtensions.swift */,
-				702734F51F1B2816006E9C94 /* String+Bool.swift */,
-				702734F71F1B2816006E9C94 /* String+Drop.swift */,
-				702734F41F1B2816006E9C94 /* String+i8n.swift */,
-				702734F81F1B2816006E9C94 /* String+Replace.swift */,
-				702734EF1F1B2816006E9C94 /* String+Trim.swift */,
-				702734FA1F1B2816006E9C94 /* UIColor+Blend.swift */,
-				702734F61F1B2816006E9C94 /* UIColor+RGB.swift */,
-				702734F21F1B2816006E9C94 /* UIView+FirstResponder.swift */,
-				702734F01F1B2816006E9C94 /* UIView+TransitionHidden.swift */,
-				702734EE1F1B2816006E9C94 /* UIViewController+Alert.swift */,
-				702734ED1F1B2816006E9C94 /* UIViewController+FirstResponder.swift */,
-				702734F91F1B2816006E9C94 /* UIViewController+Pop.swift */,
-				702734F31F1B2816006E9C94 /* UIViewController+RootViewController.swift */,
+				70257C951F1B347D00383685 /* NumberExtensions.swift */,
+				70257C9B1F1B347D00383685 /* String+Bool.swift */,
+				70257C961F1B347D00383685 /* String+Drop.swift */,
+				70257C981F1B347D00383685 /* String+i8n.swift */,
+				70257C971F1B347D00383685 /* String+Replace.swift */,
+				70257C931F1B347D00383685 /* String+Trim.swift */,
+				70257C9A1F1B347D00383685 /* UIColor+Blend.swift */,
+				70257C941F1B347D00383685 /* UIColor+RGB.swift */,
+				70257C9D1F1B347D00383685 /* UIView+FirstResponder.swift */,
+				70257C9C1F1B347D00383685 /* UIView+TransitionHidden.swift */,
+				70257C921F1B347D00383685 /* UIViewController+Alert.swift */,
+				70257C911F1B347D00383685 /* UIViewController+FirstResponder.swift */,
+				70257C9E1F1B347D00383685 /* UIViewController+Pop.swift */,
+				70257C991F1B347D00383685 /* UIViewController+RootViewController.swift */,
+				7027350B1F1B2847006E9C94 /* Utilities.swift */,
 			);
 			path = KZCoreKit;
 			sourceTree = "<group>";
@@ -240,21 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				702734FB1F1B2816006E9C94 /* UIViewController+FirstResponder.swift in Sources */,
-				702735081F1B2816006E9C94 /* UIColor+Blend.swift in Sources */,
-				702735061F1B2816006E9C94 /* String+Replace.swift in Sources */,
 				7027350C1F1B2848006E9C94 /* Utilities.swift in Sources */,
-				702735051F1B2816006E9C94 /* String+Drop.swift in Sources */,
-				702735041F1B2816006E9C94 /* UIColor+RGB.swift in Sources */,
-				702735011F1B2816006E9C94 /* UIViewController+RootViewController.swift in Sources */,
-				702735031F1B2816006E9C94 /* String+Bool.swift in Sources */,
-				702734FC1F1B2816006E9C94 /* UIViewController+Alert.swift in Sources */,
-				702735001F1B2816006E9C94 /* UIView+FirstResponder.swift in Sources */,
-				702735021F1B2816006E9C94 /* String+i8n.swift in Sources */,
-				702734FD1F1B2816006E9C94 /* String+Trim.swift in Sources */,
-				702734FE1F1B2816006E9C94 /* UIView+TransitionHidden.swift in Sources */,
-				702734FF1F1B2816006E9C94 /* NumberExtensions.swift in Sources */,
-				702735071F1B2816006E9C94 /* UIViewController+Pop.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,6 +452,7 @@
 				702734E91F1B27FC006E9C94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		702734EA1F1B27FC006E9C94 /* Build configuration list for PBXNativeTarget "KZCoreKitTests" */ = {
 			isa = XCConfigurationList;
@@ -488,6 +461,7 @@
 				702734EC1F1B27FC006E9C94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
